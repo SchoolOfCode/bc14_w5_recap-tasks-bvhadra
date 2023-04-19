@@ -1,5 +1,6 @@
 import "./index.css";
 
+/*
 function Comment(props) {
   let arrAuthor = props.author.split(" ");
   const initials = arrAuthor.map((name) => name[0].toUpperCase()).join("");
@@ -14,3 +15,15 @@ function Comment(props) {
   )
 }
 export default Comment;
+*/
+
+function Comment(props) {
+  return (
+    <div className = "comment">
+      <span className = "text1">{props.name}</span>
+      <p>{props.text}</p>
+    </div>
+  )
+  }
+  
+  export default Comment;

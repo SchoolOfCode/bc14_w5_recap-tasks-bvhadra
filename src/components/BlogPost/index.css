@@ -1,6 +1,6 @@
 img {
-    width: 50%;
-    height: 50%;
+    width: 75%;
+    height: 75%;
 }
 
 .image {
@@ -19,8 +19,8 @@ img {
     border-radius: 15px;
     width: 40%;
     height: 50%;
-    background-color: rgb(251, 228, 233);
-    border-color: rgb(255, 153, 168);
+    background-color: rgba(95, 73, 201, 0.233);
+    border-color: rgba(240, 197, 9, 0.568);
     border-style: solid;
 }
 
